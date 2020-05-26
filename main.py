@@ -5,6 +5,7 @@ class MainHandler(tornado.web.RequestHandler):
     def get(self):
         print(1)
         print(2)
+        print(3)
         self.write("Hello, world")
 
 def make_app():
